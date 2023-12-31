@@ -1,0 +1,59 @@
+body{
+    background-image: linear-gradient(to left, black, white);
+    
+}
+.form{
+    background-color: blue;
+    background-image: linear-gradient(to left, black, rgb(209, 200, 200));
+
+    position: absolute;
+    max-width: 600px;
+    width: 500px;
+    left: 30%;
+    box-shadow: 40px 10px 50px black;
+}
+#signup-txt{
+    color: white;
+    margin-left: 120px;
+}
+
+#form{
+    margin-left: 100px;
+}
+
+input[type="text"],[type="email"],[type="password"]
+{
+    width: 300px;
+    height: 32px;
+    border: none;
+    border-radius: 10px;
+}
+
+input[type="checkbox"]
+{
+    height: 15px;
+    width: 30px;
+}
+
+
+
+::placeholder{
+    color: red;
+    text-align: center;
+    opacity: 0.6;
+}
+#signupbtn{
+    color: black;
+    height: 35px;
+    font-weight: bold;
+    width: 100px;
+    background-color: rgb(80, 100, 80);
+    border: none;
+    border-radius: 10px;
+    color: white;
+}
+
+
+
+
+
